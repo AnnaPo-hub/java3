@@ -13,7 +13,14 @@ https://github.com/AnnaPo-hub/java3/issues/1
 
 
 ## Описание процесса тестирования 
+Тестирование производилось в следующем окружении:
+ - macOS Catalina 10.15.3
+ - openjdk version "1.8.0_242
+ - IntelliJ IDEA 2019.3.2
+ 
 В качестве тестовых данных использовались данные: 
+ - сумма на счете 2_000_000_000;  
+ - сумма пополнения 500_000_000; 
 
 ```java
 public class transfer {
@@ -21,22 +28,22 @@ public class transfer {
         long currentBalance =  2_000_000_000;
         long transferAmount = 500_000_000;
         long total;
-        total=currentBalance+transferAmount;
+        total=currentBalance+transferAmount;```
+
+       System.out.println(total);
+
+
+
 
         System.out.println(total);
     }
 }
   ```     
 
- - сумма на счете 2_000_000_000;  
- - сумма пополнения 500_000_000; 
  
 
 
 
-Тестирование производилось в следующем окружении:
- - macOS Catalina 10.15.3
- - openjdk version "1.8.0_242
- - IntelliJ IDEA 2019.3.2
+
 
 
