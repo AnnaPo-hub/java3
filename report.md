@@ -22,23 +22,7 @@ https://github.com/AnnaPo-hub/java3/issues/1
  - сумма на счете 2_000_000_000;  
  - сумма пополнения 500_000_000; 
 
-```java
-public class transfer {
-    public static void main(String[] args) {
-        long currentBalance =  2_000_000_000;
-        long transferAmount = 500_000_000;
-        long total;
-        total=currentBalance+transferAmount;
-
-       System.out.println(total);
-
-
-
-
-        System.out.println(total);
-    }
-}
-  ```     
+    
 
  
 
